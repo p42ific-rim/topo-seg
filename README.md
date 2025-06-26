@@ -12,7 +12,7 @@ We implemented a pipeline that is trained on brain MRI images and their ground t
 
 This can serve the purpose of data augmentation in a field where real data is scarce due to how expensive it is to collect. It could be used to train a segmentation model.
 
-In order to fully understand the pipeline, it is important to be familiar with diffusion models and have notions of persistent homology.
+In order to fully understand the pipeline, it is important to be familiar with diffusion models and have notions of persistent homology. A presentation about the basics of Topological Data Analysis is present in this repository (`TDA_presentation_28032025.pdf`). The final presentation for the project is also present, just in case (`final_presentation_26062025.pdf`).
 
 ## Resources
 
