@@ -18,13 +18,13 @@ In order to fully understand the pipeline, it is important to be familiar with d
 
 The main data set used is the BraTS Task 01 Dataset.
 
-The main libraries used throughout this project were `PyTorch` and `MONAI` .
+The main libraries used throughout this project were `PyTorch` and `MONAI`.
 
 To build the pipeline, we referred to the ControlNet and TopoInteraction repositories.
 
 ### BraTS
 
-The Brain Tumor Segmentation Challenge (BraTS) is an international competition focused on automating segmentation of brain tumors fromPi multi-modal MRI scans.
+The Brain Tumor Segmentation Challenge (BraTS) is an international competition focused on automating segmentation of brain tumors from multi-modal MRI scans.
 
 For each patient, a T1 weighted (T1w), a post-contrast enhanced T1-weighted (T1CE), a T2-weighted (T2w) and a Fluid-Attenuated Inversion Recovery (FLAIR) MRI is provided.
 
@@ -100,7 +100,7 @@ We modified the `lib\python3.11\site-packages\monai\inferers\inferer.py` file to
 
 </aside>
 
-But it’s better to continually check the `MONAI` repository linked above for the most accurate versioning, especially to avoid conflics with `torch`.
+But it’s better to continually check the `MONAI` repository linked above for the most accurate versioning, especially to avoid conflicts with `torch`.
 
 The following dependencies are also necessary : 
 
