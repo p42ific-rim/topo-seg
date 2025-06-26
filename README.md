@@ -137,6 +137,12 @@ It is then split as follows :
 - Same validation set for the base diffusion model for ControlNet and the ControlNet itself ;
 - Separate validation set for the diffusion model with TI loss
 
+Split counts:
+- Train (same for ControlNet and TopoDiffNet): 310
+- ControlNet val : 48
+- TopoDiffNet val : 48
+- Test (for the whole pipeline): 78
+
 ### ControlNet : training
 
 The first part trains a 2D diffusion model based on a U-Net architecture (`DiffusionModelUNet`). 
