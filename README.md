@@ -157,7 +157,7 @@ Training uses the same MSE loss framework and MONAI’s `ControlNetDiffusionInfe
 
 At the end of training, the ControlNet weights and optimizer state are saved to disk as a checkpoint.
 
-The checkpoints in this repository correspond to 100 epochs of training for the base diffusion model and 150 epochs for the ControlNet.
+We used 100 epochs of training for the base diffusion model and 150 epochs for the ControlNet.
 
 ### Diffusion model with topological loss : training and inference
 
@@ -180,7 +180,7 @@ We use the denoised image instead of the predicted noise because the TI loss req
 
 At the end, model weights and optimizer state are saved as a checkpoint.
 
-The checkpoint in this repository corresponds to 100 epochs.
+We used 100 epochs for training.
 
 ### ControlNet : inference
 
