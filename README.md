@@ -96,7 +96,7 @@ pip install monai[all]==1.6.0
 <aside>
 ⚠️
 
-We modified the `lib\python3.11\site-packages\monai\inferers\inferer.py` file to handle returning both the prediction AND the denoised image. The prediction is used for the ControlNet and the denoised image is used for the TI loss.
+We modified MONAI's `inferer.py` file to handle returning both the prediction AND the denoised image. The prediction is used for the ControlNet and the denoised image is used for the TI loss.
 
 </aside>
 
@@ -166,7 +166,7 @@ We used 100 epochs of training for the base diffusion model and 150 epochs for t
 
 REMINDER
 
-We modified the `lib\python3.11\site-packages\monai\inferers\inferer.py` file to handle returning both the prediction AND the denoised image. The prediction is used for the ControlNet and the denoised image is used for the TI loss.
+We modified MONAI'S `inferer.py` file to handle returning both the prediction AND the denoised image. The prediction is used for the ControlNet and the denoised image is used for the TI loss.
 
 </aside>
 
